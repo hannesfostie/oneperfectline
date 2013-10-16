@@ -28,40 +28,62 @@ html.wf-inactive *, html.wf-active * {
   padding: 4.5rem 1.5rem 3rem;
 }
 
-p, ul, ol, dl, table, pre, form,
-h2, h3 {
+p, ul, ol, dl, table, pre, form {
   margin-bottom: 30px;
   margin-bottom: 1.5rem;
+}
+
+hr {
+  margin: 2.5rem 0;
 }
 
 h1 {
   font-style: italic;
   font-weight: 400;
-  font-size: 52px;
+  font-size: 41.888px;
   font-size: 2.618rem;
   line-height: 1;
 }
 
-h1 > span[class*="icon-"] {
-  font-size: 1rem;
-  position: absolute;
-  margin-left: -2.618rem;
-  line-height: 2.618rem;
-}
-
 h2 {
   font-family: ff-meta-web-pro,sans-serif;
-  text-transform: uppercase;
   font-weight: 400;
-  font-size: 16px;
-  font-size: .8rem;
+  font-size: 29.124px;
+  font-size: 1.618rem;
   line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 20px;
+  font-size: 1rem;
+  font-family: ff-meta-web-pro,sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 1rem;
 }
 
 h2.subtitle {
   text-transform: uppercase;
   color: rgba(0,0,0,0.6);
   letter-spacing: 0.1rem;
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+pre {
+  background: rgba(0,0,0,0.1);
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
 }
 
 article {
@@ -88,6 +110,17 @@ small, .footnotes {
 a {
   color: $blue;
   text-decoration: none;
+}
+
+a.permalink {
+  font-size: 1.4rem;
+  color: rgba(0,0,0,0.6);
+  @include transition (color 0.2s);
+
+  &:hover {
+    color: $blue;
+    text-decoration: none;
+  }
 }
 
 h1 a {

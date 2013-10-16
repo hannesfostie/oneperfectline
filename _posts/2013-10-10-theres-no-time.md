@@ -1,7 +1,9 @@
 ---
 layout: post
 title: There's no time
-subtitle: Josh Homme is a boss
+subtitle: Josh Homme is such a boss
+type: link
+source: http://www.wtfpod.com/podcast/episodes/episode_431_-_josh_homme
 ---
 
 

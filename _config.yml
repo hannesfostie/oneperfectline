@@ -1,7 +1,8 @@
-auto: false 
+auto: false
 source: .
 destination: ./public
 include: ['.htaccess']
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'Capfile', 'config']
 future: true
 show_drafts: nil
 relative_permalinks: true
